@@ -1,4 +1,4 @@
-# RT-StormSync
+# Pr-StormSync
 
 A FiveM resource that triggers a dramatic storm effect before a txAdmin-scheduled server restart — and cleanly restores the original weather if the restart is cancelled.
 
@@ -30,11 +30,11 @@ Built for **QBCore** with **qb-weathersync**.
 
 ## Installation
 
-1. Drop the `RT-StormSync` folder into your `resources` directory
+1. Drop the `Pr-StormSync` folder into your `resources` directory
 2. Add to your `server.cfg` — **after** `qb-weathersync`:
    ```
    ensure qb-weathersync
-   ensure RT-StormSync 
+   ensure Pr-StormSync 
    ```
 3. Edit `config.lua` to choose your weather mode and timing
 4. Restart the server or run `refresh` + `ensure RT-StormSync` in the console
