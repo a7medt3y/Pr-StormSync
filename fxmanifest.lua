@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'Riot Studio'
-description 'Riot Studio'
+author 'Pure Studio'
+description 'Pure Studio'
 version '1.0.0'
 
 shared_scripts { 'config.lua' }
